@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89858e4cbe079bf49b29efaba1ada7b6, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier:
+  playerOneSpeed: 15
+  playerTwoSpeed: 15
+  playerAcceleration: 100
+  playerPaddleScale: 1
+  initialBallSpeed: 6
+  ballSpeedIncreasePerHit: 0.75
+  maxBallSpeed: 14
+  minimumHorizontalDirection: 0.35
+  maximumVerticalDirection: 0.85
+  ballRotationSpeed: 25
+  pointsToWin: 3
+  goalTimeLimit: 20
+  goalX: 8.9
+  verticalLimit: 4.15
+  playerHalfWidth: 8.25
+  roundStartDelay: 0.75
+  roundResetDelay: 0.8
+  enableObstacles: 1
+  obstacleSpawnMin: 4
+  obstacleSpawnMax: 7
+  obstacleLifetimeMin: 3
+  obstacleLifetimeMax: 7
+  obstaclePoolSize: 5
+  enablePowerUps: 1
+  powerUpSpawnMin: 6
+  powerUpSpawnMax: 10
+  powerUpPoolSize: 4
+  powerUpLifetime: 8
+  powerUpDuration: 5
+  powerUpBallSpeedMultiplier: 1.75
+  powerUpPaddleScaleMultiplier: 1.5
